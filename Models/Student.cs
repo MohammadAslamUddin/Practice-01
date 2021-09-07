@@ -1,10 +1,12 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Practice_01.Models
 {
     public class Student
     {
+        [Key]
         public int Id { get; set; }
         [Required(ErrorMessage = "Please Enter a Student's Name")]
         public string Name { get; set; }
@@ -19,5 +21,11 @@ namespace Practice_01.Models
         public string Address { get; set; }
         [Required(ErrorMessage = "Please Select an admission Date")]
         public DateTime Date { get; set; }
+        [Required]
+        public int CourseId { get; set; }
+        [ForeignKey("CourseId")]
+        public Course Course { get; set; }
+
     }
 }
+

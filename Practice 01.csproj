@@ -192,6 +192,26 @@
     <Compile Include="Migrations\202109071516391_CreateCourseTable.designer.cs">
       <DependentUpon>202109071516391_CreateCourseTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202109071607382_AddingForeignKey.cs" />
+    <Compile Include="Migrations\202109071607382_AddingForeignKey.designer.cs">
+      <DependentUpon>202109071607382_AddingForeignKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202109071759120_CreateStudentTable1.cs" />
+    <Compile Include="Migrations\202109071759120_CreateStudentTable1.designer.cs">
+      <DependentUpon>202109071759120_CreateStudentTable1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202109071801441_CreateStudentTable2.cs" />
+    <Compile Include="Migrations\202109071801441_CreateStudentTable2.designer.cs">
+      <DependentUpon>202109071801441_CreateStudentTable2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202109071924047_AddingForeignKey1.cs" />
+    <Compile Include="Migrations\202109071924047_AddingForeignKey1.designer.cs">
+      <DependentUpon>202109071924047_AddingForeignKey1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202109071925545_MakingUniqueCours.cs" />
+    <Compile Include="Migrations\202109071925545_MakingUniqueCours.designer.cs">
+      <DependentUpon>202109071925545_MakingUniqueCours.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Course.cs" />
@@ -316,6 +336,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202109071516391_CreateCourseTable.resx">
       <DependentUpon>202109071516391_CreateCourseTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109071607382_AddingForeignKey.resx">
+      <DependentUpon>202109071607382_AddingForeignKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109071759120_CreateStudentTable1.resx">
+      <DependentUpon>202109071759120_CreateStudentTable1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109071801441_CreateStudentTable2.resx">
+      <DependentUpon>202109071801441_CreateStudentTable2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109071924047_AddingForeignKey1.resx">
+      <DependentUpon>202109071924047_AddingForeignKey1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109071925545_MakingUniqueCours.resx">
+      <DependentUpon>202109071925545_MakingUniqueCours.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
